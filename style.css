@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    margin: 0;
+
+}
+
+
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    color: #f9faf8;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+    height: 60px;
+
+}
+
+.hlogo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    font-size:18px;
+    text-decoration: none;
+    list-style: none;
+    color: #E5E7EB;
+
+}
+.link {
+    padding-left:15px;
+}
+
+.first {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    padding: 6%;
+    padding-left: 12%;
+
+    padding-right: 12%;
+    gap: 2%;
+}
+
+#awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+
+.intro span {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.introimage {
+    flex: 1 1 0;
+    padding: 0%;
+
+}
+
+.introimage img {
+    height: 100%;
+    width: 100%;
+
+}.intro button{
+    margin-top: 8px;
+    border: none;
+}
+
+.information {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+
+
+}
+
+.informations {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.actualinfo {}
+
+.informations img {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 26%;
+    padding-right: 26%;
+    padding-bottom: 8%;
+}
+
+
+
+.third {
+    padding: 8%;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 28px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+.testi {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.fourth {
+    padding: 8%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    flex: none;
+}
+
+.action {
+    color:#f9faf8;
+    font-size: 24px;
+}
+.actiontwo {
+    color:#E5E7EB;
+}
+.fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    height: 40px;
+}
+
+button {
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #f9faf8;
+}
